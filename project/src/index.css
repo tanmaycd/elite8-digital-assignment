@@ -79,4 +79,103 @@
     @apply relative after:absolute after:bottom-0 after:left-0 after:h-0.5 
            after:w-0 after:bg-primary hover:after:w-full after:transition-all after:duration-300;
   }
+  /* --- Glassmorphism --- */
+.glass {
+  @apply bg-white/20 dark:bg-neutral-900/30 backdrop-blur-md border border-white/30 dark:border-neutral-800/30 shadow-lg;
+}
+
+/* --- Magic Parallax Glow (for backgrounds or cursor) --- */
+.parallax-glow {
+  @apply absolute rounded-full pointer-events-none;
+  background: radial-gradient(circle, #7f5af0 0%, #2cb67d 60%, transparent 100%);
+  filter: blur(32px);
+  opacity: 0.5;
+}
+
+/* --- Awesome Text Masks & Water Text Effect --- */
+.text-gradient {
+  background: linear-gradient(90deg, #7f5af0, #2cb67d, #ff6ac1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.water-text {
+  @apply font-bold;
+  background: linear-gradient(90deg, #7f5af0, #2cb67d, #ff6ac1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: blur(0.2px) drop-shadow(0 2px 6px #fff8);
+  animation: water-text-wave 1.2s infinite linear alternate;
+}
+@keyframes water-text-wave {
+  0% { letter-spacing: 0.1em; }
+  100% { letter-spacing: 0.25em; }
+}
+
+/* --- Magic Lines (animated dashed border) --- */
+.magic-lines {
+  @apply absolute inset-[-8px] rounded-full border-2 border-dashed border-primary pointer-events-none;
+  animation: magic-lines-spin 1.2s linear infinite;
+}
+@keyframes magic-lines-spin {
+  100% { transform: rotate(360deg);}
+}
+
+/* --- Amazing Gradients --- */
+.bg-animated-gradient {
+  background: linear-gradient(270deg, #7f5af0, #2cb67d, #ff6ac1, #7f5af0);
+  background-size: 400% 400%;
+  animation: gradient-move 8s ease-in-out infinite;
+}
+@keyframes gradient-move {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* --- Image Breakouts --- */
+.image-breakout {
+  @apply relative z-10;
+}
+.image-breakout img {
+  @apply absolute -top-8 left-1/2 -translate-x-1/2 w-[120%] rounded-xl shadow-lg;
+}
+
+/* --- Bento Grids --- */
+.bento-grid {
+  @apply grid gap-6 md:grid-cols-3 auto-rows-[200px] md:auto-rows-[300px];
+}
+.bento-large {
+  @apply md:col-span-2 md:row-span-2;
+}
+
+/* --- Card Layouts --- */
+.card {
+  @apply bg-white dark:bg-neutral-900 rounded-2xl shadow-lg p-6 transition-transform duration-300;
+}
+.card-hover:hover {
+  @apply scale-105 shadow-2xl;
+}
+
+/* --- Carousel --- */
+.carousel {
+  @apply relative flex items-center overflow-hidden rounded-xl shadow-lg;
+}
+.carousel-btn {
+  @apply absolute top-1/2 -translate-y-1/2 bg-white/70 dark:bg-neutral-900/70 p-2 rounded-full shadow cursor-pointer;
+}
+
+/* --- Stacking Cards --- */
+.stacking-cards {
+  @apply relative w-80 h-96 mx-auto;
+}
+.stacking-card-back {
+  @apply absolute top-0 left-0 w-full h-full bg-white dark:bg-neutral-900 rounded-xl shadow-lg rotate-[-6deg] z-10;
+}
+.stacking-card-mid {
+  @apply absolute top-2 left-2 w-full h-full bg-primary/10 rounded-xl shadow-md rotate-3 z-20;
+}
+.stacking-card-front {
+  @apply relative w-full h-full bg-white dark:bg-neutral-900 rounded-xl shadow-xl z-30;
+}
 }

@@ -9,7 +9,7 @@ import { teamMembers, TeamMember } from '../data/team';
 const About = () => {
   useEffect(() => {
     // Update page title
-    document.title = 'About Us | Elite8 Digital';
+    document.title = 'About Us | XYZ8 Digital';
     // Scroll to top on page load
     window.scrollTo(0, 0);
   }, []);
@@ -49,7 +49,7 @@ const About = () => {
               />
               
               <p className="text-lg text-neutral-600 dark:text-neutral-300 mb-6">
-                Founded in 2010, Elite8 Digital began as a small design studio with a passion for creating meaningful digital experiences. Over the years, we've grown into a full-service creative agency, working with clients across industries and around the world.
+                Founded in 2010, XYZ Digital began as a small design studio with a passion for creating meaningful digital experiences. Over the years, we've grown into a full-service creative agency, working with clients across industries and around the world.
               </p>
               
               <p className="text-lg text-neutral-600 dark:text-neutral-300 mb-6">

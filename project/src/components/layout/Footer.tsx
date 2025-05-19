@@ -11,8 +11,8 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-6">
             <Link to="/" className="text-2xl font-bold inline-block">
-              <span className="text-primary">Elite</span>
-              <span className="text-white">8</span>
+              <span className="text-primary">XYZ</span>
+              <span className="text-white">_</span>
               <span className="text-white">Digital</span>
             </Link>
             <p className="text-neutral-400 leading-relaxed">
@@ -65,7 +65,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-medium mb-6">Contact</h4>
             <ul className="space-y-4 text-neutral-400">
-              <li>hello@elite8digital.com</li>
+              <li>xyz8digital.com</li>
               <li>+1 (555) 123-4567</li>
               <li>
                 123 Digital Avenue
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-16 pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center text-neutral-400 text-sm">
-          <p>© {currentYear} Elite8 Digital. All rights reserved.</p>
+          <p>© {currentYear} XYZ Digital. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>

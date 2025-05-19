@@ -63,8 +63,8 @@ const Navbar = () => {
           to="/" 
           className="text-2xl font-bold relative z-50 group"
         >
-          <span className="text-primary">Elite</span>
-          <span className="text-neutral-800 dark:text-white">8</span>
+          <span className="text-primary">XYZ</span>
+          <span className="text-neutral-800 dark:text-white"></span>
           <span className="relative ml-1 inline-block">
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300 ease-out-expo"></span>
             Digital

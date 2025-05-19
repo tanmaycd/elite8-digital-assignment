@@ -30,7 +30,7 @@ const Contact = () => {
 
   useEffect(() => {
     // Update page title
-    document.title = 'Contact Us | Elite8 Digital';
+    document.title = 'Contact Us | XYZ_Digital';
     // Scroll to top on page load
     window.scrollTo(0, 0);
   }, []);
@@ -145,8 +145,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Email Us</h3>
-                    <p className="text-neutral-600 dark:text-neutral-400">hello@elite8digital.com</p>
-                    <p className="text-neutral-600 dark:text-neutral-400">support@elite8digital.com</p>
+                    <p className="text-neutral-600 dark:text-neutral-400">hello@xyzdigital.com</p>
+                    <p className="text-neutral-600 dark:text-neutral-400">support@xyzdigital.com</p>
                   </div>
                 </div>
                 
@@ -348,7 +348,7 @@ const Contact = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Elite8 Digital Office Location"
+            title="XYZ Digital Office Location"
           ></iframe>
         </div>
       </Section>

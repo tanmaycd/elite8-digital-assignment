@@ -9,7 +9,7 @@ import { getFeaturedProjects, Project } from '../data/projects';
 const Home = () => {
   useEffect(() => {
     // Update page title
-    document.title = 'Elite8 Digital - Creative Agency';
+    document.title = 'XYZ Digital - Creative Agency';
     // Scroll to top on page load
     window.scrollTo(0, 0);
   }, []);
@@ -42,7 +42,7 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-300 mb-12 max-w-2xl mx-auto"
             >
-              Elite8 Digital is a creative agency that combines strategy, design, and technology to build brands that stand out in the digital landscape.
+              XYZ Digital is a creative agency that combines strategy, design, and technology to build brands that stand out in the digital landscape.
             </motion.p>
             
             <motion.div 
@@ -103,7 +103,7 @@ const Home = () => {
               />
               
               <p className="text-lg text-neutral-600 dark:text-neutral-300 mb-8">
-                Elite8 Digital is a creative agency that specializes in branding, web design, UI/UX, and digital marketing. With a team of experienced designers, developers, and strategists, we create compelling digital experiences that help our clients succeed in today's competitive landscape.
+                XYZ Digital is a creative agency that specializes in branding, web design, UI/UX, and digital marketing. With a team of experienced designers, developers, and strategists, we create compelling digital experiences that help our clients succeed in today's competitive landscape.
               </p>
               
               <div className="flex flex-wrap gap-6 mb-10">

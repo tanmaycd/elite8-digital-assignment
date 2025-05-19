@@ -49,7 +49,7 @@ const Loader = () => {
           className="text-3xl md:text-4xl font-bold mb-8 text-center text-neutral-800 dark:text-white"
           variants={textVariants}
         >
-          <span className="text-primary">Elite</span>
+          <span className="text-primary">XYZ</span>
           <span>8</span>
           <span>Digital</span>
         </motion.h1>

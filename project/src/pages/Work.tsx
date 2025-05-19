@@ -12,7 +12,7 @@ const Work = () => {
 
   useEffect(() => {
     // Update page title
-    document.title = 'Our Work | Elite8 Digital';
+    document.title = 'Our Work | XYZ_Digital';
     // Scroll to top on page load
     window.scrollTo(0, 0);
   }, []);

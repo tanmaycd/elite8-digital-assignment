@@ -16,7 +16,7 @@ const ProjectDetail = () => {
       const currentProject = getProjectById(id);
       if (currentProject) {
         setProject(currentProject);
-        document.title = `${currentProject.title} | Elite8 Digital`;
+        document.title = `${currentProject.title} | XYZ_Digital`;
 
         // Find next project
         const currentIndex = projects.findIndex(p => p.id === id);
