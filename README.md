@@ -98,7 +98,7 @@ src/
 ## 📝 How to Run Locally
 
 1. Clone the repo:  
-   `git clone https://github.com/yourusername/novaspark-studio.git`
+   `git clone repo url`
 2. Install dependencies:  
    `npm install`
 3. Start dev server:  
